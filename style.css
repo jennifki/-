@@ -1,10 +1,43 @@
 body {
     font-family: sans-serif;
+    background-color: rgba(16, 176, 16, 0.71);
 }
 header{
     text-align: center;
     background-color: blue;
     color: gold;
     padding-bottom: 100px;
+    padding-top: 10px;
+    border: gold solid 15px;
+    border-radius: 30px;
+}
+footer{
+    text-align: center;
+    background-color: blue;
+    color: gold;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    border: gold solid 15px;
+    border-radius: 30px;
+
+}
+footer img{
+    height: 125px;
+    width: 125px;
+}
+.pigeon{
+    position: relative;
+    top: 30px;
+    right: 125px;
+    transition: all 4s;
+}
+.cen{
+    position: relative;
+    left: 125px;
+    top:30px ;
 }
 
+.pigeon:hover{
+    transform: translateX(275px);
+
+}
